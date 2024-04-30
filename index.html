@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Blogr]</title>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <a class="skip-to-content-link" href="#slot-1">Skip to content</a>
+    <nav>
+      <div class="left-nav">
+        <img class="logo" src="images/logo.svg" alt="Blogr Landing Page">
+        <!-- Nav bar -->
+        <ul class="desktop-nav">
+          <li id="dropdown1" class="main-nav-heading">
+            <a href="#">Product<svg xmlns="http://www.w3.org/2000/svg" class="arrow arrow-image-light" width="10"
+                height="7" opacity=".75">
+                <path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l4 4 4-4" />
+              </svg>
+            </a>
+            <ul id="subNav1" class="dropdown-menu" aria-labelledby="dropdown1">
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul>
+          </li>
+          <li id="dropdown2" class="main-nav-heading">
+            <a href="#">Company<svg xmlns="http://www.w3.org/2000/svg" class="arrow arrow-image-light" width="10"
+                height="7" opacity=".75">
+                <path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l4 4 4-4" />
+              </svg>
+            </a>
+            <ul id="subNav2" class="dropdown-menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </li>
+          <li id="dropdown3" class="main-nav-heading">
+            <a href="#">Connect<svg xmlns="http://www.w3.org/2000/svg" class="arrow arrow-image-light" width="10"
+                height="7" opacity=".75">
+                <path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l4 4 4-4" />
+              </svg>
+            </a>
+            <ul id="subNav3" class="dropdown-menu">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="right-nav desktop-nav">
+        <ul>
+          <li>
+            <a href="#">
+              <button id="login" type="button" class="button" tabindex="-1">
+                Login
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <button type="button" class="button button-active" tabindex="-1">
+                Sign Up
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <img src="images/icon-hamburger.svg" class="hamburger-icon">
+      </div>
+    </nav>
+    <div class="mobile-nav">
+      <div class="mobile-dropdown-background"></div>
+      <ul class="mobile-dropdown">
+        <li id="mobile-dropdown-1" class="nav-option">
+          <span>Product<svg xmlns="http://www.w3.org/2000/svg" class="arrow arrow-image-dark" width="10" height="7">
+              <path fill="none" stroke="#FF7B86" stroke-width="2" d="M1 1l4 4 4-4" />
+            </svg></span>
+
+          <ul id="mobilesubNav1" class="dropdown-menu" aria-labelledby="dropdown1">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integrations</a></li>
+          </ul>
+        </li>
+        <li id="mobile-dropdown-2" class="nav-option">
+          <span>Company<svg xmlns="http://www.w3.org/2000/svg" class="arrow arrow-image-dark" width="10" height="7">
+              <path fill="none" stroke="#FF7B86" stroke-width="2" d="M1 1l4 4 4-4" />
+            </svg></span>
+
+          <ul id="mobilesubNav2" class="dropdown-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </li>
+        <li id="mobile-dropdown-3" class="nav-option">
+          <span>Connect<svg xmlns="http://www.w3.org/2000/svg" class="arrow arrow-image-dark" width="10" height="7">
+              <path fill="none" stroke="#FF7B86" stroke-width="2" d="M1 1l4 4 4-4" />
+            </svg></span>
+          <ul id="mobilesubNav3" class="dropdown-menu">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </li>
+        <div class="mobile-account-section">
+          <a>
+            <li><button id="mobile-login">Login</button></li>
+          </a>
+          <a>
+            <li><button id="mobile-sign-up">Sign Up</button></li>
+          </a>
+        </div>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <div class="headings">
+          <h1 class="mainHeading">A modern publishing platform</h1>
+          <h4>Grow your audience and build your online brand</h4>
+        </div>
+        <div class="hero-buttons">
+          <button id="start-hero-button" type="button" class="button button-active"><span>Start for Free</span></button>
+          <button id="learn-hero-button" type="button" class="button"><span>Learn More</span></button>
+        </div>
+      </div>
+    </section>
+    <section id="slot-1">
+      <h2>Designed for the future</h2>
+      <div class="content">
+        <article class="copy">
+          <section>
+            <h3>Introducing an extensible editor</h3>
+            <p class="text">Blogr features an exceedingly intuitive interface which lets you focus on one thing:
+              creating
+              content.
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.</p>
+          </section>
+          <section>
+            <h3>Robust content management</h3>
+            <p class="text">Flexible content management enables users to easily move through posts. Increase the
+              usability
+              of your blog
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full
+              control.
+            </p>
+          </section>
+        </article>
+        <picture>
+          <source srcset="images/illustration-editor-desktop.svg" media="(min-width: 1024px)" />
+          <source srcset="images/illustration-editor-mobile.svg" media="(max-width: 1023px)" />
+          <img src="images/illustration-editor-desktop.svg" alt="Designed for the future" />
+        </picture>
+      </div>
+    </section>
+    <section id="slot-2">
+      <div class="infrastructure">
+        <img src="images/illustration-phones.svg" alt="Phones Illustration">
+        <article>
+          <h2>State of the Art Infrastructure</h2>
+          <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast
+            connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="slot-3">
+      <picture>
+        <source srcset="images/illustration-laptop-desktop.svg" media="(min-width: 1024px)" />
+        <source srcset="images/illustration-laptop-mobile.svg" media="(max-width: 1023px)" />
+        <img src="images/illustration-laptop-desktop.svg" alt="Free, open, simple" />
+      </picture>
+      <article>
+        <section>
+          <h3>Free, open, simple</h3>
+          <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+            tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+        </section>
+        <section>
+          <h3>Powerful tooling</h3>
+          <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment
+            a
+            breeze, but
+            capable of producing even the most complicated sites.</p>
+        </section>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <img class="logo" src="images/logo.svg" alt="Blogr Landing Page">
+    <nav>
+      <div>
+        <h4>Product</h4>
+        <ul class="footer-nav">
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="footer-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul class="footer-nav">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+
+  <div class="footer">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://sebframpton.github.io/">Sebastian Frampton</a>.
+    </p>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
